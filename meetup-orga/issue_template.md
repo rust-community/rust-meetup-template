@@ -1,1 +1,0 @@
-../.github/issue_template.md
