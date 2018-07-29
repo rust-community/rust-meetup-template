@@ -1,0 +1,35 @@
+# Site settings
+title: rust-meetup-template
+description: "A starter template for recurring meetups."
+baseurl: ""
+url: "http://CHANGEME.com"
+author:
+  name: CHANGEME 
+  twitter: CHANGEME
+  github: CHANGEME
+  meetup: CHANGEME
+  email: CHANGEME@test.com
+
+feedback_url: https://github.com/CHANGEME/CHANGEME
+source_url: https://github.com/CHANGEME/CHANGEME
+
+google_maps_api_key: AIzaSyBkz492n9gf895Tfi12ikKVurgIHHOFmK4
+
+# Build settings
+permalink: "/:year/:month/:day/:title.html"
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "event"
+
+# Content settings
+future: true # we use dates for the actual meetup time, not the post publication time
+timezone: "Europe/Berlin"
+
+exclude:
+  - .vscode
+  - .gitignore
+  - meetup-orga
