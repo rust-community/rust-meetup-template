@@ -1,7 +1,7 @@
 # Rust meetup template
 
-This is a [Jekyll](jekyll) template for a Rust-oriented meetup. It's based on the
-[rust-cologne](rustcgn) website.
+This is a [Jekyll][jekyll] template for a Rust-oriented meetup. It's based on the
+[rust-cologne][rustcgn] website.
 
 ## Setup
 
@@ -11,7 +11,7 @@ To set up your own website, you can either:
 - Download a .zip archive of this repository and set it up as a new GitHub repository
 - `git clone` the repository, and then change the Git remote to your repository
 
-This website can easily be hosted using [GitHub Pages](ghpages). Simply activate it in your repository
+This website can easily be hosted using [GitHub Pages][ghpages]. Simply activate it in your repository
 settings to host your meetup site for free. This also works with forks.
 
 If you want to, you can even add a custom domain (for free). The basic method to do this is:
